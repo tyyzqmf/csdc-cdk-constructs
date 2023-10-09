@@ -1,0 +1,5 @@
+packages:
+  # all packages in direct subdirs of packages/
+  - 'source/patterns/@csdc-solutions-constructs/*'
+  # exclude packages that are inside test directories
+  - '!**/test/**'
