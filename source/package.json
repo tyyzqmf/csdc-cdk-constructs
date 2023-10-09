@@ -1,0 +1,48 @@
+{
+  "name": "@tyyzqmf/csdc-cdk-constructs",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tyyzqmf/csdc-cdk-constructs.git"
+  },
+  "keywords": [
+    "CDK"
+  ],
+  "author": "mingfeiq@amazon.com",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/tyyzqmf/csdc-cdk-constructs/issues"
+  },
+  "homepage": "https://github.com/tyyzqmf/csdc-cdk-constructs#readme",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.14.0",
+    "@typescript-eslint/parser": "^2.14.0",
+    "eslint": "^6.8.0",
+    "eslint-import-resolver-node": "^0.3.2",
+    "eslint-import-resolver-typescript": "^2.0.0",
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-license-header": "^0.2.0",
+    "jest": "^27.4.0",
+    "jsii": "^1.49.0",
+    "jsii-pacmak": "^1.49.0",
+    "tslint": "^5.20.1",
+    "typescript": "4.7.4"
+  },
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  },
+  "workspaces": {
+    "packages": [
+      "./patterns/@csdc-solutions-constructs/*"
+    ]
+  },
+  "resolutions": {
+    "**/@typescript-eslint/eslint-plugin": "^4.1.1",
+    "**/@typescript-eslint/parser": "^4.1.1"
+  }
+}

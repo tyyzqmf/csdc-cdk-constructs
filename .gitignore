@@ -1,0 +1,27 @@
+# VSCode extension
+.vscode/
+/.favorites.json
+
+# JetBrains IDEs
+/.idea
+
+# TypeScript incremental build states
+*.tsbuildinfo
+*.ts.map
+
+# Local state files & OS specifics
+.DS_Store
+node_modules/
+source/**/package-lock.json
+
+# CDK Context & Staging files
+cdk.context.json
+.cdk.staging/
+cdk.out/
+*.tabl.json
+source/patterns/@aws-solutions-constructs/**/cdk-integ.out/
+
+source/patterns/**/tsconfig.json
+deployment/dist/*
+
+*.pptx
